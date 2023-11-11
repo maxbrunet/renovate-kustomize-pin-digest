@@ -3,3 +3,5 @@ kind: Kustomization
 images:
 - name: docker.io/library/busybox
   newTag: 1.36.1
+- name: busybox 
+  newName: docker.io/library/busybox
